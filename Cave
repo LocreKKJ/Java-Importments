@@ -1,0 +1,11 @@
+public class main {
+
+    public static void main (String[] args) throws InterruptedException {
+
+        String[] contagem = {"3, 2, 1...", "Hello world!"};
+
+        for (String texto: contagem)
+        System.out.println(texto);
+        Thread.sleep(1000); // pausa de 1 segundo (1000 milissegundos)
+    }
+}
